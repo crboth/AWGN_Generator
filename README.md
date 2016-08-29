@@ -16,7 +16,7 @@ Left todo as of 3:15 8/29
 
 5. Datasheet
 
-6. Fix Errors (Functional Simulation not impeeded)
+6. Fix Errors (Functional simulation not impeeded)
 
 
 
