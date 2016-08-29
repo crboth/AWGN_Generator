@@ -1,7 +1,4 @@
-%worked from 1 to 4 on 8/17, completed quantized matlab simulation
-%excluding nuanced implimentation of sin and ln
-%started working at noon on 8/18 to 1:45
-%4 to 8:15 on 8/21 finished sin and log
+
 %sin approximation
 tic;
 loopmax = 100000;

@@ -4,12 +4,10 @@ num_segments = 128;
 order = 1;
 num_index_bits = ceil(log2(num_segments));
 seg_len = 3/num_segments;
-%%%%%%
+
 seg_inc = seg_len/2^16;%(num_bits-num_index_bits);
 inc = 1/(2^16);
-%%%%%%
-%really need to figure out how many bits to use, least squares really
-%messes with things
+
 
 coefs = zeros(num_segments,order+1);
 for i = 0:num_segments-1
@@ -20,8 +18,3 @@ for i = 0:num_segments-1
 end
 end
 
-
-
-
-%from [1.2) ex mod 2 = 0
-%from [2,4) ex mod 2 = 1

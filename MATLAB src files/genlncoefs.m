@@ -6,12 +6,10 @@ num_segments = 256;
 order = 2;
 num_index_bits = ceil(log2(num_segments));
 seg_len = 1/num_segments;
-%%%%%%
-seg_inc = seg_len/2^16;%(num_bits-num_index_bits);
+
+seg_inc = seg_len/2^16;
 inc = 1/(2^16);
-%%%%%%
-%really need to figure out how many bits to use, least squares really
-%messes with things
+
 
 coefs = zeros(num_segments,order+1);
 for i = 0:num_segments-1
