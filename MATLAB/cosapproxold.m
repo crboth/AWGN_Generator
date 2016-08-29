@@ -3,7 +3,7 @@ persistent coscoefs
 if(isempty(coscoefs))
     coscoefs = gencoscoefs;
 end
-%started at 4
+
 quadrant = floor(u1/.25);
 seg_len = .25/128;
 seg_inc = seg_len/128;

@@ -6,7 +6,7 @@ fprintf(outputf_id,'u1 = %d\n',round(u1*2^16));
 if(isempty(coscoefs))
     coscoefs = gencoscoefs;
 end
-%started at 4
+
 u1t = uint32(u1*2^16);
 quadrant = u1t/(2^14);
 xcos = mod(u1t,2^14);

@@ -3,9 +3,6 @@ persistent sqrtcoefs
 if(isempty(sqrtcoefs))
     sqrtcoefs = gensqrtcoefs;
 end
-%SQRTAPPROX Summary of this function goes here
-%   Detailed explanation goes here
-%started at 1:35 8/23
     if(e == 0)
         f = 0;
     else

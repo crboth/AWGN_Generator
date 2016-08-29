@@ -8,8 +8,6 @@ persistent lncoefs
 if(isempty(lncoefs))
     lncoefs = genlncoefs;
 end
-%LNAPPROX Summary of this function goes here
-%   Detailed explanation goes here
 if(u0 == 0)
     e = 0;
 else

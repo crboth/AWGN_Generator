@@ -1,7 +1,5 @@
 function [ coefs ] = gencoscoefs()%( input_args )
-% coefficents for first order piecwise approximation of cos from 0 to pi/2
 
-%for each segment, build a table of coefficents of the line of best fit for
 
 seg_len = .25/128;
 seg_inc = seg_len/128;
