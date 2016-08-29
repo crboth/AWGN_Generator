@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sqrt_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sqrt_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4133fs"></ZoomEndTime>
+      <Cursor1Time time="5000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/sqrt_tb/e" type="array">
+      <obj_property name="ElementShortName">e[30:0]</obj_property>
+      <obj_property name="ObjectShortName">e[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/f" type="array">
+      <obj_property name="ElementShortName">f[16:0]</obj_property>
+      <obj_property name="ObjectShortName">f[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/expected_f" type="array">
+      <obj_property name="ElementShortName">expected_f[16:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_f[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/f" type="array">
+      <obj_property name="ElementShortName">f[16:0]</obj_property>
+      <obj_property name="ObjectShortName">f[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/e" type="array">
+      <obj_property name="ElementShortName">e[30:0]</obj_property>
+      <obj_property name="ObjectShortName">e[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/numlzs" type="array">
+      <obj_property name="ElementShortName">numlzs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">numlzs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/exp_f" type="array">
+      <obj_property name="ElementShortName">exp_f[6:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_f[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/exp_ft" type="array">
+      <obj_property name="ElementShortName">exp_ft[5:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_ft[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/x_ft" type="array">
+      <obj_property name="ElementShortName">x_ft[30:0]</obj_property>
+      <obj_property name="ObjectShortName">x_ft[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/x_f" type="array">
+      <obj_property name="ElementShortName">x_f[30:0]</obj_property>
+      <obj_property name="ObjectShortName">x_f[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/xb" type="array">
+      <obj_property name="ElementShortName">xb[6:0]</obj_property>
+      <obj_property name="ObjectShortName">xb[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/xa" type="array">
+      <obj_property name="ElementShortName">xa[23:0]</obj_property>
+      <obj_property name="ObjectShortName">xa[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/c1_mem" type="array">
+      <obj_property name="ElementShortName">c1_mem[0:127][11:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_mem[0:127][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/c0_mem" type="array">
+      <obj_property name="ElementShortName">c0_mem[0:127][19:0]</obj_property>
+      <obj_property name="ObjectShortName">c0_mem[0:127][19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/c1" type="array">
+      <obj_property name="ElementShortName">c1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">c1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/c0" type="array">
+      <obj_property name="ElementShortName">c0[19:0]</obj_property>
+      <obj_property name="ObjectShortName">c0[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/xc1" type="array">
+      <obj_property name="ElementShortName">xc1[41:0]</obj_property>
+      <obj_property name="ObjectShortName">xc1[41:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/y_ft" type="array">
+      <obj_property name="ElementShortName">y_ft[45:0]</obj_property>
+      <obj_property name="ObjectShortName">y_ft[45:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sqrt_tb/dut/y_ftt" type="array">
+      <obj_property name="ElementShortName">y_ftt[45:0]</obj_property>
+      <obj_property name="ObjectShortName">y_ftt[45:0]</obj_property>
+   </wvobject>
+</wave_config>

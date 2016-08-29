@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cos_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cos_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="166666667fs"></ZoomStartTime>
+      <ZoomEndTime time="611909037fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/cos_tb/u1" type="array">
+      <obj_property name="ElementShortName">u1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">u1[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/g0" type="array">
+      <obj_property name="ElementShortName">g0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">g0[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/g1" type="array">
+      <obj_property name="ElementShortName">g1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">g1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/expected_g0" type="array">
+      <obj_property name="ElementShortName">expected_g0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_g0[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/expected_g1" type="array">
+      <obj_property name="ElementShortName">expected_g1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_g1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/quad" type="array">
+      <obj_property name="ElementShortName">quad[1:0]</obj_property>
+      <obj_property name="ObjectShortName">quad[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/index_bits" type="array">
+      <obj_property name="ElementShortName">index_bits[13:0]</obj_property>
+      <obj_property name="ObjectShortName">index_bits[13:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/cos_bits" type="array">
+      <obj_property name="ElementShortName">cos_bits[13:0]</obj_property>
+      <obj_property name="ObjectShortName">cos_bits[13:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/sin_bits" type="array">
+      <obj_property name="ElementShortName">sin_bits[13:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_bits[13:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/cos_index" type="array">
+      <obj_property name="ElementShortName">cos_index[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cos_index[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/sin_index" type="array">
+      <obj_property name="ElementShortName">sin_index[6:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_index[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/xcos" type="array">
+      <obj_property name="ElementShortName">xcos[6:0]</obj_property>
+      <obj_property name="ObjectShortName">xcos[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/xsin" type="array">
+      <obj_property name="ElementShortName">xsin[6:0]</obj_property>
+      <obj_property name="ObjectShortName">xsin[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/c1_cos" type="array">
+      <obj_property name="ElementShortName">c1_cos[11:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_cos[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/c0_cos" type="array">
+      <obj_property name="ElementShortName">c0_cos[18:0]</obj_property>
+      <obj_property name="ObjectShortName">c0_cos[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/c1_sin" type="array">
+      <obj_property name="ElementShortName">c1_sin[11:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_sin[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/c0_sin" type="array">
+      <obj_property name="ElementShortName">c0_sin[18:0]</obj_property>
+      <obj_property name="ObjectShortName">c0_sin[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/yt_cos" type="array">
+      <obj_property name="ElementShortName">yt_cos[32:0]</obj_property>
+      <obj_property name="ObjectShortName">yt_cos[32:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/yt_sin" type="array">
+      <obj_property name="ElementShortName">yt_sin[32:0]</obj_property>
+      <obj_property name="ObjectShortName">yt_sin[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/y_cos" type="array">
+      <obj_property name="ElementShortName">y_cos[32:0]</obj_property>
+      <obj_property name="ObjectShortName">y_cos[32:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cos_tb/dut/y_sin" type="array">
+      <obj_property name="ElementShortName">y_sin[32:0]</obj_property>
+      <obj_property name="ObjectShortName">y_sin[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
