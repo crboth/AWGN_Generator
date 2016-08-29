@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/twobitlzd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twobitlzd
+WARNING: [VRFC 10-1315] redeclaration of ansi port a is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/twobitlzd.v:29]
+WARNING: [VRFC 10-1315] redeclaration of ansi port b is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/twobitlzd.v:30]
+WARNING: [VRFC 10-1315] redeclaration of ansi port p is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/twobitlzd.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port v is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/twobitlzd.v:32]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lzdetector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/log.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module log
+WARNING: [VRFC 10-1315] redeclaration of ansi port e is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/log.v:4]
+WARNING: [VRFC 10-1315] redeclaration of ansi port u0 is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/log.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/sqrt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqrt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/sincos.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sincos
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/taus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module taus
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/AWGN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AWGN
+WARNING: [VRFC 10-1315] redeclaration of ansi port awgn_out1 is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/AWGN.v:44]
+WARNING: [VRFC 10-1315] redeclaration of ansi port awgn_out2 is not allowed [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/AWGN.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sim_1/new/AWGN_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AWGN_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
