@@ -1,0 +1,1054 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Sep 07 20:47:20 2016
+# Process ID: 6748
+# Current directory: C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.runs/synth_2
+# Command line: vivado.exe -log AWGN_FINAL.vds -mode batch -messageDb vivado.pb -notrace -source AWGN_FINAL.tcl
+# Log file: C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.runs/synth_2/AWGN_FINAL.vds
+# Journal file: C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source AWGN_FINAL.tcl -notrace
+Command: synth_design -top AWGN_FINAL -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-86] Your Synthesis license expires in 20 day(s)
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3252 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 309.273 ; gain = 100.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'AWGN_FINAL' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/AWGN_FINAL.v:4]
+INFO: [Synth 8-638] synthesizing module 'taus' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/taus.v:4]
+INFO: [Synth 8-256] done synthesizing module 'taus' (1#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/taus.v:4]
+INFO: [Synth 8-638] synthesizing module 'logp' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:3]
+INFO: [Synth 8-3876] $readmem data file '../../../../MATLAB/lnc2h.txt' is read successfully [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:76]
+INFO: [Synth 8-3876] $readmem data file '../../../../MATLAB/lnc1h.txt' is read successfully [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:77]
+INFO: [Synth 8-3876] $readmem data file '../../../../MATLAB/lnc0h.txt' is read successfully [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:78]
+INFO: [Synth 8-638] synthesizing module 'lzdetector' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 48 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized0' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized1' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized2' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized3' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized4' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'twobitlzd' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/twobitlzd.v:5]
+INFO: [Synth 8-256] done synthesizing module 'twobitlzd' (2#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/twobitlzd.v:5]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized4' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized5' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized5' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized3' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized6' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized7' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized7' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized8' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized8' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized6' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized2' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized9' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized10' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized11' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized11' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized12' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized12' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized10' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized13' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized14' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized14' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized15' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized15' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized13' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized9' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized1' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized16' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized17' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized18' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized19' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized19' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized20' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized20' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized18' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized21' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized22' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized22' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized23' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized23' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized21' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized17' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized24' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized25' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized26' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized26' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized27' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized27' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized25' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized28' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized29' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized29' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized30' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized30' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized28' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized24' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized16' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized0' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized31' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized32' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized33' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized34' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized35' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized35' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized36' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized36' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized34' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized37' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized38' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized38' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized39' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized39' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized37' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized33' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized40' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized41' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized42' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized42' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized43' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized43' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized41' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized44' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized45' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized45' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized46' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized46' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized44' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized40' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized32' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized47' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized48' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized49' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized50' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized50' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized51' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized51' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized49' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized52' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized53' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized53' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized54' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized54' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized52' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized48' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized55' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized56' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized57' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized57' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized58' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized58' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized56' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized59' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized60' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized60' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized61' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized61' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized59' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized55' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized47' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized31' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector' (3#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'shifter' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/shifter.v:4]
+	Parameter BIT_WIDTH bound to: 48 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter' (4#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/shifter.v:4]
+INFO: [Synth 8-256] done synthesizing module 'logp' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:3]
+INFO: [Synth 8-638] synthesizing module 'sqrtp' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/sqrtp.v:4]
+INFO: [Synth 8-3876] $readmem data file '../../../../MATLAB/sqrtc1h.txt' is read successfully [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/sqrtp.v:55]
+INFO: [Synth 8-3876] $readmem data file '../../../../MATLAB/sqrtc0h.txt' is read successfully [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/sqrtp.v:56]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized62' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 31 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized63' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized64' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized65' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized66' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized66' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized67' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized67' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized65' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized68' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized69' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized69' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized70' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized70' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized68' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized64' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized71' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized72' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized73' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized73' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized74' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized74' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized72' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized75' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized76' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized76' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized77' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized77' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized75' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized71' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized63' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized78' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized79' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized80' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized81' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized81' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized82' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized82' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized80' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized83' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized84' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized84' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized85' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized85' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized83' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized79' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized86' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized87' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized88' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized88' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized89' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized89' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized87' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized90' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized91' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized91' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'lzdetector__parameterized92' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+	Parameter INPUT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized92' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized90' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized86' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized78' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-256] done synthesizing module 'lzdetector__parameterized62' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/lzdetector.v:3]
+INFO: [Synth 8-638] synthesizing module 'shifter__parameterized0' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/shifter.v:4]
+	Parameter BIT_WIDTH bound to: 31 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter__parameterized0' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/shifter.v:4]
+INFO: [Synth 8-638] synthesizing module 'shifter__parameterized1' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/shifter.v:4]
+	Parameter BIT_WIDTH bound to: 58 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter__parameterized1' (5#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/shifter.v:4]
+INFO: [Synth 8-256] done synthesizing module 'sqrtp' (6#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/sqrtp.v:4]
+INFO: [Synth 8-638] synthesizing module 'cosp' [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/cosp.v:5]
+INFO: [Synth 8-3876] $readmem data file '../../../../MATLAB/cosc1h.txt' is read successfully [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/cosp.v:81]
+INFO: [Synth 8-3876] $readmem data file '../../../../MATLAB/cosc0h.txt' is read successfully [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/cosp.v:82]
+INFO: [Synth 8-256] done synthesizing module 'cosp' (7#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/cosp.v:5]
+INFO: [Synth 8-256] done synthesizing module 'AWGN_FINAL' (8#1) [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/AWGN_FINAL.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 346.605 ; gain = 138.215
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 346.605 ; gain = 138.215
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/constrs_1/new/constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 794.313 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 794.313 ; gain = 585.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 794.313 ; gain = 585.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 794.313 ; gain = 585.922
+---------------------------------------------------------------------------------
+INFO: [Synth 8-41] '+' operator could not be merged with '_-' operator due to loss of accuracy [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:63]
+INFO: [Synth 8-41] '+' operator could not be merged with '_-' operator due to loss of accuracy [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:63]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 794.313 ; gain = 585.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     80 Bit       Adders := 1     
+	   3 Input     63 Bit       Adders := 1     
+	   2 Input     62 Bit       Adders := 1     
+	   3 Input     60 Bit       Adders := 1     
+	   2 Input     59 Bit       Adders := 1     
+	   3 Input     59 Bit       Adders := 1     
+	   2 Input     40 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   3 Input     26 Bit       Adders := 4     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
++---XORs : 
+	   3 Input     32 Bit         XORs := 2     
+	   2 Input     21 Bit         XORs := 2     
+	   2 Input     13 Bit         XORs := 2     
+	   2 Input      7 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               60 Bit    Registers := 1     
+	               48 Bit    Registers := 2     
+	               32 Bit    Registers := 6     
+	               31 Bit    Registers := 1     
+	               18 Bit    Registers := 6     
+	               16 Bit    Registers := 5     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                 6x32  Multipliers := 1     
++---ROMs : 
+	                              ROMs := 3     
++---Muxes : 
+	   2 Input     58 Bit        Muxes := 6     
+	   2 Input     48 Bit        Muxes := 6     
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input     31 Bit        Muxes := 6     
+	   2 Input     26 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 7     
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 24    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module AWGN_FINAL 
+Detailed RTL Component Info : 
++---Registers : 
+	               48 Bit    Registers := 1     
+	               31 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module taus 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 1     
+	   2 Input     21 Bit         XORs := 1     
+	   2 Input     13 Bit         XORs := 1     
+	   2 Input      7 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module lzdetector__parameterized3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized6 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized10 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized13 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized9 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module lzdetector__parameterized18 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized21 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized17 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized25 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized28 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized24 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized16 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module lzdetector__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module lzdetector__parameterized34 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized37 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized33 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized41 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized44 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized40 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module lzdetector__parameterized49 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized52 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized48 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized56 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized59 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized55 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized47 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module lzdetector__parameterized31 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module lzdetector 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module shifter 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     48 Bit        Muxes := 6     
+Module logp 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     80 Bit       Adders := 1     
+	   3 Input     63 Bit       Adders := 1     
+	   2 Input     62 Bit       Adders := 1     
+	   3 Input     60 Bit       Adders := 1     
+	   2 Input     59 Bit       Adders := 1     
+	   3 Input     59 Bit       Adders := 1     
+	   2 Input     40 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               60 Bit    Registers := 1     
+	               48 Bit    Registers := 1     
+	               18 Bit    Registers := 6     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
++---Multipliers : 
+	                 6x32  Multipliers := 1     
++---ROMs : 
+	                              ROMs := 3     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+Module lzdetector__parameterized65 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized68 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized64 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized72 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized75 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized71 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized63 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module lzdetector__parameterized80 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized83 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized79 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized87 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized90 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module lzdetector__parameterized86 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module lzdetector__parameterized78 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module lzdetector__parameterized62 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module shifter__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 5     
+Module shifter__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     58 Bit        Muxes := 6     
+Module sqrtp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+Module cosp 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     26 Bit       Adders := 4     
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input     14 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input     14 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 794.313 ; gain = 585.922
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/Compy/Desktop/TexasLDPC/AWGN/AWGN.srcs/sources_1/new/logp.v:59]
+DSP Report: Generating DSP xx_bt, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP xx_bt.
+DSP Report: register A is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: Generating DSP xx_bt, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP xx_bt.
+DSP Report: register A is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: Generating DSP xx_bt, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP xx_bt.
+DSP Report: register A is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: Generating DSP xx_bt, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP xx_bt.
+DSP Report: register A is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: Generating DSP xx_bt, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP xx_bt.
+DSP Report: register A is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: operator xx_bt is absorbed into DSP xx_bt.
+DSP Report: Generating DSP xxc2t, operation Mode is: A*B.
+DSP Report: operator xxc2t is absorbed into DSP xxc2t.
+DSP Report: operator xxc2t is absorbed into DSP xxc2t.
+DSP Report: Generating DSP xxc2t, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator xxc2t is absorbed into DSP xxc2t.
+DSP Report: operator xxc2t is absorbed into DSP xxc2t.
+DSP Report: Generating DSP xc1t, operation Mode is: A*B2.
+DSP Report: register B is absorbed into DSP xc1t.
+DSP Report: operator xc1t is absorbed into DSP xc1t.
+DSP Report: operator xc1t is absorbed into DSP xc1t.
+DSP Report: Generating DSP xc1t, operation Mode is: A*B2.
+DSP Report: register B is absorbed into DSP xc1t.
+DSP Report: operator xc1t is absorbed into DSP xc1t.
+DSP Report: operator xc1t is absorbed into DSP xc1t.
+DSP Report: Generating DSP xc1t, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register B is absorbed into DSP xc1t.
+DSP Report: operator xc1t is absorbed into DSP xc1t.
+DSP Report: operator xc1t is absorbed into DSP xc1t.
+DSP Report: Generating DSP e_temp, operation Mode is: (A:0x17f8)*B''.
+DSP Report: register B is absorbed into DSP e_temp.
+DSP Report: register B is absorbed into DSP e_temp.
+DSP Report: operator e_temp is absorbed into DSP e_temp.
+DSP Report: operator e_temp is absorbed into DSP e_temp.
+DSP Report: Generating DSP e_temp, operation Mode is: (PCIN>>17)+A*B''.
+DSP Report: register B is absorbed into DSP e_temp.
+DSP Report: register B is absorbed into DSP e_temp.
+DSP Report: operator e_temp is absorbed into DSP e_temp.
+DSP Report: operator e_temp is absorbed into DSP e_temp.
+DSP Report: Generating DSP y_ft, operation Mode is: C+A*B.
+DSP Report: operator y_ft is absorbed into DSP y_ft.
+DSP Report: operator xc1 is absorbed into DSP y_ft.
+DSP Report: Generating DSP cos_module/c1x_sin, operation Mode is: A*B.
+DSP Report: operator cos_module/c1x_sin is absorbed into DSP cos_module/c1x_sin.
+DSP Report: Generating DSP x0, operation Mode is: A2*B2.
+DSP Report: register g0_reg_reg is absorbed into DSP x0.
+DSP Report: register A is absorbed into DSP x0.
+DSP Report: operator x0 is absorbed into DSP x0.
+DSP Report: Generating DSP cos_module/c1x_cos, operation Mode is: A*B.
+DSP Report: operator cos_module/c1x_cos is absorbed into DSP cos_module/c1x_cos.
+DSP Report: Generating DSP x1, operation Mode is: A2*B2.
+DSP Report: register g1_reg_reg is absorbed into DSP x1.
+DSP Report: register A is absorbed into DSP x1.
+DSP Report: operator x1 is absorbed into DSP x1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 794.313 ; gain = 585.922
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 794.313 ; gain = 585.922
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+--------------------------+---------------+----------------+
+|Module Name | RTL Object               | Depth x Width | Implemented As | 
++------------+--------------------------+---------------+----------------+
+|logp        | x_e_reg_reg_rep_bsel     | 256x13        | Block RAM      | 
+|logp        | x_e_reg_reg_rep_bsel_rep | 256x22        | Block RAM      | 
+|logp        | x_e_reg_reg_rep_bsel_rep | 256x30        | Block RAM      | 
+|sqrtp       | p_0_out                  | 128x20        | LUT            | 
+|sqrtp       | p_0_out                  | 128x12        | LUT            | 
+|cosp        | p_0_out                  | 128x12        | LUT            | 
+|cosp        | p_0_out                  | 128x19        | LUT            | 
+|cosp        | p_0_out                  | 128x12        | LUT            | 
+|cosp        | p_0_out                  | 128x19        | LUT            | 
+|logp        | x_e_reg_reg_rep_bsel     | 256x13        | Block RAM      | 
+|logp        | x_e_reg_reg_rep_bsel_rep | 256x22        | Block RAM      | 
+|logp        | x_e_reg_reg_rep_bsel_rep | 256x30        | Block RAM      | 
+|sqrtp       | p_0_out                  | 128x20        | LUT            | 
+|sqrtp       | p_0_out                  | 128x12        | LUT            | 
+|AWGN_FINAL  | p_0_out                  | 128x12        | LUT            | 
+|AWGN_FINAL  | p_0_out                  | 128x19        | LUT            | 
+|AWGN_FINAL  | p_0_out                  | 128x12        | LUT            | 
+|AWGN_FINAL  | p_0_out                  | 128x19        | LUT            | 
++------------+--------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|logp        | A2*B2            | 24     | 7      | -      | -      | 29     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | A2*B2            | 24     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | (PCIN>>17)+A2*B2 | 24     | 18     | -      | -      | 46     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | (PCIN>>17)+A2*B2 | 24     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | A*B              | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|logp        | (PCIN>>17)+A*B   | 24     | 14     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|logp        | A*B2             | 23     | 7      | -      | -      | 28     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | A*B2             | 23     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | (PCIN>>17)+A*B2  | 23     | 18     | -      | -      | 45     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|logp        | (A:0x17f8)*B''   | 7      | 14     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|logp        | (PCIN>>17)+A*B'' | 16     | 7      | -      | -      | 48     | 0    | 2    | -    | -    | -     | 0    | 0    | 
+|sqrtp       | C+A*B            | 24     | 12     | 43     | -      | 43     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|cosp        | A*B              | 12     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|AWGN_FINAL  | A2*B2            | 18     | 16     | -      | -      | 34     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|cosp        | A*B              | 12     | 7      | -      | -      | 19     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|AWGN_FINAL  | A2*B2            | 18     | 16     | -      | -      | 34     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (urng_a/s1_reg[2]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_a/s1_reg[1]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_a/s1_reg[0]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_a/s2_reg[3]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_a/s2_reg[2]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_a/s2_reg[1]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_a/s2_reg[0]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_a/s0_reg[0]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s1_reg[2]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s1_reg[1]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s1_reg[0]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s2_reg[3]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s2_reg[2]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s2_reg[1]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s2_reg[0]) is unused and will be removed from module AWGN_FINAL.
+WARNING: [Synth 8-3332] Sequential element (urng_b/s0_reg[0]) is unused and will be removed from module AWGN_FINAL.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:00:59 . Memory (MB): peak = 794.313 ; gain = 585.922
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:55 ; elapsed = 00:00:59 . Memory (MB): peak = 794.313 ; gain = 585.922
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 836.586 ; gain = 628.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:19 . Memory (MB): peak = 852.836 ; gain = 644.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance x_e_reg_reg_rep_bsel (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance x_e_reg_reg_rep_bsel_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance x_e_reg_reg_rep_bsel_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance log_module/x_e_reg_reg_rep_bsel_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance log_module/x_e_reg_reg_rep_bsel_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:21 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:17 ; elapsed = 00:01:21 . Memory (MB): peak = 877.957 ; gain = 669.566
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:17 ; elapsed = 00:01:21 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:22 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:18 ; elapsed = 00:01:22 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |CARRY4     |   144|
+|3     |DSP48E1    |     5|
+|4     |DSP48E1_1  |     4|
+|5     |DSP48E1_2  |     3|
+|6     |DSP48E1_3  |     1|
+|7     |DSP48E1_4  |     1|
+|8     |DSP48E1_5  |     1|
+|9     |DSP48E1_6  |     2|
+|10    |LUT1       |   242|
+|11    |LUT2       |   183|
+|12    |LUT3       |   278|
+|13    |LUT4       |   211|
+|14    |LUT5       |   242|
+|15    |LUT6       |   456|
+|16    |MUXF7      |    50|
+|17    |RAMB18E1   |     1|
+|18    |RAMB18E1_1 |     1|
+|19    |RAMB18E1_2 |     1|
+|20    |FDRE       |   380|
+|21    |IBUF       |   179|
+|22    |OBUF       |    16|
++------+-----------+------+
+
+Report Instance Areas: 
++------+--------------+-------+------+
+|      |Instance      |Module |Cells |
++------+--------------+-------+------+
+|1     |top           |       |  2403|
+|2     |  cos_module  |cosp   |   288|
+|3     |  log_module  |logp   |   841|
+|4     |  sqrt_module |sqrtp  |   274|
+|5     |  urng_a      |taus   |   208|
+|6     |  urng_b      |taus_0 |   208|
++------+--------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 877.957 ; gain = 669.566
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 877.957 ; gain = 190.605
+Synthesis Optimization Complete : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 877.957 ; gain = 669.566
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 343 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+233 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:22 . Memory (MB): peak = 877.957 ; gain = 652.695
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 877.957 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 07 20:48:47 2016...

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1473299531">
+  <File Type="ROUTE-STATUS-PB" Name="AWGN_FINAL_route_status.pb"/>
+  <File Type="PA-TCL" Name="AWGN_FINAL.tcl"/>
+  <File Type="OPT-DCP" Name="AWGN_FINAL_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="AWGN_FINAL_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="AWGN_FINAL_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="AWGN_FINAL.vdi"/>
+  <File Type="PWROPT-DRC" Name="AWGN_FINAL_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="AWGN_FINAL_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="AWGN_FINAL_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="AWGN_FINAL.hwdef"/>
+  <File Type="OPT-TIMING" Name="AWGN_FINAL_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="AWGN_FINAL_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="AWGN_FINAL_placed.dcp"/>
+  <File Type="PLACE-IO" Name="AWGN_FINAL_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="AWGN_FINAL_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="AWGN_FINAL_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="AWGN_FINAL_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="AWGN_FINAL_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="AWGN_FINAL_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="AWGN_FINAL_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="AWGN_FINAL_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="AWGN_FINAL_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="AWGN_FINAL_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="AWGN_FINAL_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="AWGN_FINAL_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="AWGN_FINAL_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="AWGN_FINAL_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="AWGN_FINAL_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="AWGN_FINAL_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="AWGN_FINAL_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="AWGN_FINAL_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="AWGN_FINAL_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="AWGN_FINAL.bit"/>
+  <File Type="ROUTE-PWR" Name="AWGN_FINAL_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="AWGN_FINAL_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="AWGN_FINAL_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="AWGN_FINAL_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="AWGN_FINAL_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="AWGN_FINAL_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="AWGN_FINAL_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="AWGN_FINAL_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="AWGN_FINAL_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="AWGN_FINAL_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="AWGN_FINAL_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="AWGN_FINAL_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="AWGN_FINAL_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="AWGN_FINAL_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="AWGN_FINAL.bin"/>
+  <File Type="BITSTR-MSK" Name="AWGN_FINAL.msk"/>
+  <File Type="BITSTR-RBT" Name="AWGN_FINAL.rbt"/>
+  <File Type="BITSTR-NKY" Name="AWGN_FINAL.nky"/>
+  <File Type="BITSTR-BMM" Name="AWGN_FINAL_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="AWGN_FINAL.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="AWGN_FINAL.sysdef"/>
+  <File Type="BG-BGN" Name="AWGN_FINAL.bgn"/>
+  <File Type="BG-DRC" Name="AWGN_FINAL.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/twobitlzd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shifter.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lzdetector.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/logp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/taus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sqrtp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cosp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AWGN_FINAL.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/log.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sqrt.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sincos.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AWGN.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/logp/new/logp_ooc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="out_of_context"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AWGN_FINAL"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

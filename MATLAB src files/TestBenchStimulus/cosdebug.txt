@@ -1,0 +1,13 @@
+u1 = 32768
+xcos = 0
+xsin = 127
+sin_index = 128
+cos_index= 1
+c1cos = C91
+c1sin = 14
+c0sin = C91
+c0cos = 40003
+c1xcos = 0
+c1xsin = -52294207
+cosu1 = -33554843
+sinu1 = -3219

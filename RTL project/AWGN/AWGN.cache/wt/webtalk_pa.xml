@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Sep 07 21:45:22 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="45f6aeb0601a4dacacb82386e5ca1753" type="ProjectID"/>
+<property name="ProjectIteration" value="25" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="27" type="JavaHandler"/>
+<property name="CheckTiming" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="4" type="JavaHandler"/>
+<property name="CoreView" value="2" type="JavaHandler"/>
+<property name="CreateHistogram" value="1" type="JavaHandler"/>
+<property name="CreateOutOfContextFileset" value="1" type="JavaHandler"/>
+<property name="EditCopy" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="15" type="JavaHandler"/>
+<property name="EditProperties" value="11" type="JavaHandler"/>
+<property name="EditUndo" value="4" type="JavaHandler"/>
+<property name="HelpAbout" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="9" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="77" type="JavaHandler"/>
+<property name="ReportClockInteraction" value="1" type="JavaHandler"/>
+<property name="ReportClockNetworks" value="2" type="JavaHandler"/>
+<property name="ReportDRC" value="2" type="JavaHandler"/>
+<property name="ReportTiming" value="1" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="21" type="JavaHandler"/>
+<property name="ReportUtilization" value="7" type="JavaHandler"/>
+<property name="RunImplementation" value="27" type="JavaHandler"/>
+<property name="RunPowerEstimation" value="5" type="JavaHandler"/>
+<property name="RunSchematic" value="15" type="JavaHandler"/>
+<property name="RunSynthesis" value="35" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="3" type="JavaHandler"/>
+<property name="SetTopNode" value="52" type="JavaHandler"/>
+<property name="ShowPowerEstimation" value="7" type="JavaHandler"/>
+<property name="ShowSource" value="2" type="JavaHandler"/>
+<property name="ShowView" value="31" type="JavaHandler"/>
+<property name="SimulationClose" value="198" type="JavaHandler"/>
+<property name="SimulationRestart" value="80" type="JavaHandler"/>
+<property name="SimulationRun" value="328" type="JavaHandler"/>
+<property name="SimulationRunAll" value="232" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="14" type="JavaHandler"/>
+<property name="SimulationStep" value="4" type="JavaHandler"/>
+<property name="TimingConstraintsWizard" value="14" type="JavaHandler"/>
+<property name="UnselectAllCmdHandler" value="1" type="JavaHandler"/>
+<property name="UnsetOutOfContextFileset" value="1" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="2" type="JavaHandler"/>
+<property name="ViewLayoutCmd" value="3" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="14" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="64" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="6" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="4" type="JavaHandler"/>
+<property name="XdcCreateClock" value="1" type="JavaHandler"/>
+<property name="XdcCreateGeneratedClock" value="4" type="JavaHandler"/>
+<property name="ZoomFit" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceAtoD.CheckTimingResultTreeTablePanel_CHECK_TIMING_RESULT_TREE_TABLE, Generated clocks unconnected to clock source (1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DesignTimingSumSectionPanel_WORST_HOLD_SLACK, -1.034 ns" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Implemented Design, Report Timing Summary], 33, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Open Synthesized Design, Report Timing Summary], 18, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, [Root, Check Timing, generated_clocks], 12, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, [Root, Check Timing], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, [Root, Check Timing], 4, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="3" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="8" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="6" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
