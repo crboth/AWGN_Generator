@@ -1,11 +1,6 @@
 ﻿# AWGN_Generator
 ﻿
 This project impliments the Additive White Gaussian Noise Generator described in http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/bm_tc06.pdf  
-  
-
-In the current state the project satisfies the 10ns clk period timing constraint and is accurate to +- 1 lsb from the infinite precision simulation, the last bit of precision could be acheived by generating more accurate polynomial coefficents
-
-The 300Mhz specification can be satisfied with the addition of extra pipeline stages.
 
 AWGN_FINAL.v is AWGN.v with pipeline stages added to pass the timing constraint
 logp.v is log.v with pipeline stages.
